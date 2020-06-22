@@ -1,0 +1,19 @@
+{
+  "name": "ts-pm2-yarn-docker-image",
+  "version": "1.0.0",
+  "description": "NodeJS with Node, Typescript, yarn, pm2, image",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Add your Node Code here\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsTalwar/node-ts-pm2-yarn-docker-image.git"
+  },
+  "author": "Nikhil Talwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsTalwar/node-ts-pm2-yarn-docker-image/issues"
+  },
+  "homepage": "https://github.com/itsTalwar/node-ts-pm2-yarn-docker-image#readme"
+}
