@@ -25,6 +25,33 @@ Creating an instance
 docker run itstalwar/node-ts-pm2-yarn
 ```
 
+Example For yarn start 
+
+create file pm2-start.json
+```
+{
+    "apps": [
+        {
+            "name": "node-typescript-yarn-pm2-docker-kubernetes",
+            "exec_mode": "cluster",
+            "instances": "max",
+            "script": "./src/index.ts",
+            "interpreter": "ts-node",
+            "env": {
+                "ENV": "prod"
+            },
+            "log-date-format": "YYYY-MM-DD HH:mm:ss",
+            "log": "/mnt/node-typescript-yarn-pm2-docker-kubernetes.log"
+        }
+    ]
+}
+```
+
+package.json edit
+```
+start: pm2-runtime start pm2-start.json
+```
+
 
 
 ## Contributing
