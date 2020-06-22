@@ -7,5 +7,5 @@ ADD . /app
 RUN yarn
 # Installing Node Modules and adding it to VOLUME (Meaning it will sit in the image)
 VOLUME ["/app"]
-CMD ["pm2-runtime", "start",  "pm2-prod.json"]
+CMD ["yarn", "start"]
 EXPOSE 3009
