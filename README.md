@@ -2,6 +2,11 @@
 
 NodeJS with Node, Typescript, yarn, pm2, image
 
+### NOTE
+- Don't add PM2 in your package.json
+- Don't install @types/node to pm2 
+- Don't intall typescript again and again to your runtime env 
+
 ### 📦 Installation
 
 Install Docker 
